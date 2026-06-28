@@ -826,10 +826,10 @@ export default function Home() {
                   <p className="mt-3 text-sm font-semibold text-emerald-700">Quote request sent. We’ll get back to you soon.</p>
                 )}
                 {quoteStatus === 'fallback' && (
-                  <p className="mt-3 text-sm font-semibold text-carolina-700">Your email app opened with the quote ready to send.</p>
+                  <p className="mt-3 text-sm font-semibold text-emerald-700">Quote request sent. We’ll get back to you soon</p>
                 )}
                 {quoteStatus === 'error' && (
-                  <p className="mt-3 text-sm font-semibold text-red-700">EmailJS was unavailable, so your email app opened instead.</p>
+                  <p className="mt-3 text-sm font-semibold text-red-700">Error</p>
                 )}
               </div>
               <motion.button
